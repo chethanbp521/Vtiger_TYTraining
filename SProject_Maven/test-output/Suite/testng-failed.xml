@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.crm.autodesk.GenericUtility.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.autodesk.ContactsTest.TC_26_CreateContactPortalUserTest">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="createContactPortalUser"/>
+          <include name="openConnection"/>
+          <include name="logoutFromApp"/>
+          <include name="closeBrowser"/>
+          <include name="closeConnection"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.ContactsTest.TC_26_CreateContactPortalUserTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
